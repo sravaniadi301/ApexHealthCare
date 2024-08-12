@@ -16,7 +16,7 @@ public class LaunchUrl extends BaseClass{
 		driver.manage().window().maximize();
 	
   LoginPage cnp=new LoginPage(driver);
-	cnp.getClickhere().click();
+	cnp.getClickhere1().click();
    
     driver.close();
     
