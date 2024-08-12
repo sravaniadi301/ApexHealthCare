@@ -1,0 +1,4 @@
+Browser firefox
+Url http://localhost:8888/
+Username admin
+Password admin
