@@ -24,13 +24,13 @@ public class LoginPage extends BaseClass
   //Rule2:Object creation
 	
 	@FindBy(xpath="(//a[text()='Click Here'])[3]")
-	private WebElement clickhere;
+	private WebElement clickhere1;
 	
 	
 
 
-	public WebElement getClickhere() {
-		return clickhere;
+	public WebElement getClickhere1() {
+		return clickhere1;
 	}
 
 	//Rule 5:provide Action
@@ -38,7 +38,7 @@ public class LoginPage extends BaseClass
 		
 		driver.manage().window().maximize();
 		
-		clickhere.click();
+		clickhere1.click();
 	}
 	
 	
