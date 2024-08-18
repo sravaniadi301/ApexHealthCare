@@ -10,6 +10,7 @@ public class OrgTest {
 	public void createOrgTest(){
 		
 		System.out.println("execute createOrgTest");
+		System.out.println("execute createOrgTes build scm");
 		
 	}
 
